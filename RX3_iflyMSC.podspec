@@ -2,9 +2,9 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_iflyMSC"
-  s.version  = "0.1"
+  s.version  = "0.2"
   s.license  = "MIT"
-  s.summary  = "RX3_iflyMSC is a tecent lite sdk"
+  s.summary  = "RX3_iflyMSC is a ke da xun fei"
   s.homepage = "https://github.com/xzjxylophone/RX3_iflyMSC"
   s.author   = { 'Rush.D.Xzj' => 'xzjxylophoe@gmail.com' }
   s.social_media_url = "http://weibo.com/xzjxylophone"
