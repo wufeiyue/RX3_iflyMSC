@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_iflyMSC"
-  s.version  = "0.3"
+  s.version  = "0.4"
   s.license  = "MIT"
   s.summary  = "RX3_iflyMSC is a ke da xun fei"
   s.homepage = "https://github.com/xzjxylophone/RX3_iflyMSC"
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
         RX3_iflyMSC is a ke da xun fei.
   }
   s.source_files = 'RX3_iflyMSC/iflyMSC.framework/Headers/*.h'
-  s.verdored_frameworks = 'RX3_iflyMSC/iflyMSC.framework'
-  s.frameworks = 'CoreTelephony'
+  s.vendored_frameworks = 'RX3_iflyMSC/iflyMSC.framework'
+  s.frameworks = 'CoreTelephony', 'AddressBook'
   s.requires_arc = true
   s.libraries = 'z', 'c++'
   s.platform = :ios, '7.0'
