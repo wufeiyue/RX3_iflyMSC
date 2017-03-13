@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_iflyMSC"
-  s.version  = "0.5"
+  s.version  = "0.6"
   s.license  = "MIT"
   s.summary  = "RX3_iflyMSC is a ke da xun fei"
   s.homepage = "https://github.com/xzjxylophone/RX3_iflyMSC"
